@@ -1,0 +1,7 @@
+| Title | paper | code/github | Huggingface | Summary | import note | bullet point | Keywords | 
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Patchscopes: A Unifying Framework for Inspecting Hidden Representations of Language Models | https://arxiv.org/pdf/2401.06102v2.pdf | | | The paper introduces Patchscopes, a framework for inspecting hidden representations of large language models (LLMs). Patchscopes leverages the model itself to explain its internal representations in natural language. Through various configurations, the framework can answer different types of questions about an LLM's computation.
+The framework unifies prior interpretability methods and overcomes their shortcomings, such as failure in inspecting early layers or lack of expressivity.
+Patchscopes outperforms existing methods in decoding next-token predictions and extracting specific attributes from hidden representations.
+It also allows for analyzing how LLMs contextualize input entity names in early layers and enables cross-model patching for better inspection capabilities.
+Patchscopes can also be used to improve multi-hop reasoning by surgically operating on the model's intermediate computation and rerouting representations to correct predictions. | | | Patchscopes, language models, hidden representations, interpretability, next-token predictions, attribute extraction, entity resolution, multi-hop reasoning, cross-model patching. | 
